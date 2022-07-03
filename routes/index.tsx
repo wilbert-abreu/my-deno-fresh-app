@@ -4,6 +4,7 @@ import { tw } from "@twind";
 import Counter from "../islands/Counter.tsx";
 
 export default function Home() {
+  console.log(Deno.env.get("Test"));
   return (
     <div class={tw`p-4 mx-auto max-w-screen-md`}>
       <img
